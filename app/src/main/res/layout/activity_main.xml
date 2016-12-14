@@ -22,7 +22,7 @@
         android:padding="10dp"
         app:arrowHeight="5dp"
         app:arrowWidth="10dp"
-        app:arrowDirection="left"
+        app:arrowDirection="bottom"
         />
     <com.duanjobs.arrowtextview.widget.ArrowTextView
         android:id="@+id/test1"
@@ -39,9 +39,10 @@
         android:paddingLeft="10dp"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
+        android:paddingRight="10dp"
         app:arrowHeight="5dp"
         app:arrowWidth="10dp"
-        app:relativePosition="80%"
-        app:arrowDirection="bottom"
+        app:relativePosition="50%"
+        app:arrowDirection="left"
         />
 </RelativeLayout>
