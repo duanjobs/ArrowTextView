@@ -17,5 +17,8 @@
         <!-- arrow width height -->
         <attr name="arrowWidth" format="dimension" />
         <attr name="arrowHeight" format="dimension" />
+        <attr name="arrowTextSize" format="dimension"/>
+        <attr name="arrowTextColor" format="color"/>
+        <attr name="arrowText" format="string"/>
     </declare-styleable>
 </resources>

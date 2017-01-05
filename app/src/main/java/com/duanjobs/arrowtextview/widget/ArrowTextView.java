@@ -48,6 +48,7 @@ public class ArrowTextView extends TextView {
         setRelativePosition(position);
         int direction = typedArray.getInt(R.styleable.ArrowTextView_arrowDirection, 1);
         setArrowDirection(direction);
+        typedArray.recycle();
 
     }
 
